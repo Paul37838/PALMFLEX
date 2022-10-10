@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <header>
+    <br>
+    <p class="h1"><span>PALM</span>FLEX</p>
+     <img src="rounded.png" alt="" class="png" onclick="move()">
+      <div class="card" id="tog">
+          <p class="top">REGISTER</p>
+          <p class="top">SIGN IN</p>
+      </div>
+  </header>
+  <body>
+    <div class="hero">
+      <br>
+     <p class="bg">BANKING THAT WORKS FOR YOUR PERSONAL USE AND BUSINESS.</p>
+     <p class="text">Do more with a business account that comes <br> with top-end financial tools and integrations to help grow your business.</p>
+      <div class="btn">
+       <button>OPEN  ACCOUNT IN 5MINS</button>
+      </div>
+    </div>
+      <p class="logo">OUR PARTNERSHIP</p>
+      <marquee behavior="" direction="">
+        <img class="img" src="carbon.png" alt="">
+        <img src="pay.logo.png" alt="" class="img">
+        <img src="wave.png" alt="" class="img">
+      </marquee>
+
+      <div class="section">
+        <p class="ul">WHAT YOU  CAN USE PALMFLEX FOR ? </p>
+        <div class="wrapper">
+          <div class="box"> <p class="name">SEND AND RECIVE PAYMENT</p></div>
+          <div class="box "> <P class="name">GET PAY FROM ABROAD </P></div>
+           <div class="box"><p class="name">UTILITIES PAYMENT</p></div>
+        </div>
+      </div>
+      <div class="wrapper">
+       <div class="cont">
+        <p class="name">INTEGRATE API TO BUSINESS  </p>
+       </div>
+       <div class="cont">BUSINESS ACCOUNT CREATION</div>
+       <div class="cont">LOAN SERVICES</div>
+      </div>
+      <p class="h6">INTEGRATIONS THAT MATTERS</p>
+      <p class="h4"><span>PALM</span>FLEX IS SEAMLESSLY INTEGRATED WITH THE TOOL. YOUR TEAM IS FAMILIAR WITH.</p>
+      <div class="wrapper">
+        <div class="contain">
+          <img src="slack.png" alt="" class="slack">
+          <p class="class">
+            Add to your company’s slack to receive real-time notifications, send team mate invitations.
+            </p>
+        </div>
+        <div class="contain">
+          <img src="sage.png" alt="" class="slack">
+          <p class="class">
+            Manage your business cashflow, invoices and activities by sync your account with sage.
+          </p>
+        </div>
+        <div class="contain">
+          <img src="db.png" alt="" class="slack">
+          <p class="class">
+            Manage your business finance by sync your invoices and payments with quickbooks.
+          </p>
+        </div>
+      </div>
+      <footer>
+        <br>
+       <p class="p">GET STARTED WITHIN 5MINS</p>
+       <p class="h5">SEND, RECIEVE  AND PAY FOR UTILITIES. GET PAY FROM ABROAD WITH HELP OF <span>PALM</span>FLEX.</p>
+       <br><br>
+       <hr>
+       <br>
+       <p class="h5">@2022 copyright nigeria limited.</p>
+      </footer>
+  </body>
+  <style> 
+    *{
+      margin:0%;
+      padding: 0%;
+    }
+    header{
+      background: black;
+      min-height: 70px;
+    }
+    .h1{
+      color: white;
+      margin-left: 2em;
+      letter-spacing: 2px;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .png{
+      float: right;
+      margin-top: -1.7em;
+      margin-right: 2em;
+      color: white;
+      background: white;
+      border-radius: 2px;
+    }
+    .hero{
+      background: black;
+      height: 400px;
+    }
+    .bg{
+      margin-left: 11px;
+      font-size: 35px;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    .text{
+      font-family: 'Courier New', Courier, monospace;
+      margin-left: 11px;
+      color: white;
+      font-size: 20px;
+    }
+    button{
+      width: 170px;
+      height: 45px;
+      background: greenyellow;
+      border-radius: 5px;
+      margin-top: 2em;
+      margin-left: 1em;
+      color: white;
+    }
+    span{
+      color: aqua;
+    }
+    .logo{
+      text-align: center;
+      font-size: 20px;
+       font-family: 'Courier New', Courier, monospace;
+       margin-top: 2em;
+    }
+    .ul{
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+    }
+    .wrapper{
+      justify-content: center;
+      display: flex;
+    }
+
+    .box{
+      width: 145px;
+      height: 90px;
+      border: 1px solid black;
+      margin-left: 2em;
+      margin-top: 2em;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      animation: card 4s infinite;
+      border-radius: 5px;
+      font-size: 20px;
+      margin-left: 2em;
+    }
+    @media(max-width:900px){
+      .wrapper{
+        flex-direction: column;
+      }
+      .box{
+        align-self: center;
+        margin-top: 2em;
+      }
+      .cont{
+        align-self: center;
+        margin-top: 1px;
+      }
+      .contain{
+        align-self: center;
+      }
+    }
+    .name{
+      margin-top: 1em;
+    }
+    @keyframes card{
+      0%{
+        transform: rotate(300deg);
+        background: rgba(255, 255, 255, 0.856);
+        border: 1px solid salmon;
+      }
+      100%{
+        background: white;
+        box-shadow: 5px 10px;
+      }
+      
+    }
+    .cont{
+      width: 145px;
+      height: 90px;
+      border: 1px solid black;
+      margin-left: 2em;
+      margin-top: 2em;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      animation: card 4s infinite;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+    .card{
+      color: white;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      transition: 1s;
+      margin-top: -20em;
+    }
+    .top{
+      text-align: center;
+      font-size: 20px;
+      margin-top: 2em;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .top:hover{
+      cursor: pointer;
+      color: whitesmoke;
+    }
+    .let{
+     margin-top: 0;
+    }
+    .img{
+      height: 60px;
+      margin-left: 3em;
+      animation: logo 10s 1;
+    }
+    @keyframes logo{
+      20%{
+        justify-content: center;
+      }
+    }
+    .h6{
+      font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+       text-align: center;
+       margin-top: 5em;
+       color: black;
+       font-weight: bolder;
+    }
+    .contain{
+      width: 300px;
+      height: 245px;
+      border: 1px solid black;
+      border-radius: 5px;
+      margin-left: 1em;
+      margin-top: 2em;
+    }
+    .h4{
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 1em;
+      font-weight: bolder;
+    }
+    .slack{
+      height: 60px;
+      margin-top: 2em;
+      margin-left: 3em;
+    }
+    .class{
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      margin-left: 2.5em;
+      font-size: 20px;
+    }
+    footer{
+      margin-top: 10em;
+      min-height: 200px;
+      background: black;
+    }
+    .p{
+      font-size: 40px;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 5em;
+      color: white;
+    }
+    .h5{
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function move(){
+      var element=document.getElementById("tog");
+      element.classList.toggle("let");
+    }
+  </script>
+</html>
